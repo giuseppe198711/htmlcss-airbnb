@@ -3,3 +3,43 @@
   padding: 0;
   margin: 0;
 }
+
+.city {
+  position: relative;
+  width: calc(100% -50px);
+  height: 100vh;
+  background-size: cover;
+  margin: 25px;
+}
+
+#vasto {
+  background-image: url(../img/vasto.jpg);
+}
+
+#puntaaderci {
+  background-image: url(../img/punta-aderci.jpg);
+}
+#roma {
+  background-image: url(../img/roma.jpg);
+}
+
+.layover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  }
+
+
+  .city-name {
+    text-align: center;
+    text-shadow: 5px 5px #708090;
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
